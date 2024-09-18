@@ -1,0 +1,22 @@
+/** css/custom_theme.css **/
+
+/* This line is theme specific - it includes the base theme CSS */
+/* @import '../alabaster.css'; */
+/* @import '../sphinx_rtd_theme.css'; */
+@import 'theme.css';       /* for the Read the Docs theme */
+
+a[href^='http']::after {
+    content: url(../images/external-link-ltr-icon.svg);
+}
+
+a[href*='openebench.bsc.es']::after {
+    content: url(../images/OpenEBench-decorator.svg);
+}
+
+.icon.icon-home:before {
+ content: url(../images/OpenEBench-decorator.svg) ""
+}
+
+.wy-nav-content {
+    max-width: 1200px !important;
+}

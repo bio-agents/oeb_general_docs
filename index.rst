@@ -1,0 +1,69 @@
+.. OpenEBench documentation master file, created by
+   sphinx-quickstart on Tue Oct 20 11:21:12 2020.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to OpenEBench documentation!
+======================================
+
+OpenEBench, the IECHOR platform for benchmarking, aims to address the main benchmarking challenges for life-sciences agents and workflows. It is based on three pillars: 
+
++-------------------------------------------------+----------------------------------------------------+------------------------------------------------------+
+| | BENCHMARKING EVENTS                           | |                    ASSESSMENT OF RESEARCH SOFTWARE                                                      |
++-------------------------------------------------+----------------------------------------------------+------------------------------------------------------+
+| | Support of                                    | | Systematic                                       | | Provision of a                                     |
+| | **SCIENTIFIC BENCHMARKING**                   | | **SOFTWARE MONITORING**                          | | **SOFTWARE OBSERVATORY**                           |
+| |                                               | |                                                  | |                                                    |
+| | protocols for assessing the scientific        | | of bioinformatics agents, server and workflows for| | for assessing the technical efficiency of          |
+| | performance of bioinformatics methods         | | assessing software-quality metrics at individual | | bioinformatics agents, servers and/or workflows.    |
+| | in a qualitative and reproducible manner.     | | level.                                           | |                                                    |
++-------------------------------------------------+----------------------------------------------------+------------------------------------------------------+
+
+
+Find more about the platform here!
+
+.. toctree::
+   :caption: Introduction
+   :maxdepth: 3
+   
+   introduction/1_overview
+   introduction/2_perspectives
+   introduction/3_background
+
+.. toctree::
+   :caption: OpenEBench General Concepts
+   :maxdepth: 3
+   
+   concepts/1_scientific_benchmarking
+   concepts/2_software_quality_metrics
+   concepts/3_platform
+   concepts/4_user_roles
+    
+.. toctree::
+   :caption: Technical References
+   :maxdepth: 3
+   
+   technical_references/1_scientific_data_model
+   technical_references/2_scientific_datasets
+   technical_references/3_software_metrics
+   technical_references/4_benchmarking_workflows
+   technical_references/5_web_components
+   technical_references/6_oeb_apis
+   technical_references/7_authentication_and_authorization
+   technical_references/8_source_code_repositories
+
+.. toctree::
+   :caption: How to
+   :maxdepth: 3
+   
+   how_to/1_explore_results
+   how_to/2_explore_monitoring_data
+   how_to/3_participate
+   how_to/4_manage_events
+   how_to/5_users_accounts
+   
+.. toctree::
+   :caption: Glossary
+   :maxdepth: 3
+   
+   glossary/glossary.md
